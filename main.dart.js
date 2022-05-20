@@ -20738,7 +20738,7 @@ a3s:function a3s(a){this.a=a},
 a3u:function a3u(a){this.a=a},
 al6(a,b,c){var s=0,r=A.V(t.Wy),q,p,o,n,m
 var $async$al6=A.Q(function(d,e){if(d===1)return A.S(e,r)
-while(true)switch(s){case 0:p=A.iI("http://127.0.0.1:8000/register",0,null)
+while(true)switch(s){case 0:p=A.iI("https://fin-report.azurewebsites.net//register",0,null)
 o=t.N
 n=A.az(["Content-Type","application/json; charset=UTF-8"],o,o)
 s=3
@@ -71408,7 +71408,7 @@ var $async$or=A.Q(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:s=3
 return A.P(p.w.rU(),$async$or)
 case 3:s=4
-return A.P(A.aof(A.iI("http://127.0.0.1:8000/contabilidad/usuarios/1/empresas",0,null)),$async$or)
+return A.P(A.aof(A.iI("https://fin-report.azurewebsites.net//contabilidad/usuarios/1/empresas",0,null)),$async$or)
 case 4:o=b
 n=o.e
 m=A.ni(J.ap(A.nd(n).c.a,"charset"))
@@ -71575,7 +71575,7 @@ return A.U($async$rU,r)},
 wj(a,b,c){return this.adq(a,b,c)},
 adq(a,b,c){var s=0,r=A.V(t.Wy),q,p,o,n,m
 var $async$wj=A.Q(function(d,e){if(d===1)return A.S(e,r)
-while(true)switch(s){case 0:p=A.iI("http://127.0.0.1:8000/login",0,null)
+while(true)switch(s){case 0:p=A.iI("https://fin-report.azurewebsites.net//login",0,null)
 o=t.N
 n=A.az(["Content-Type","application/json; charset=UTF-8"],o,o)
 s=3
@@ -71633,7 +71633,7 @@ this.d=this.rM()},
 rM(){var s=0,r=A.V(t.oE),q,p,o,n,m,l,k
 var $async$rM=A.Q(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:s=3
-return A.P(A.aof(A.iI("http://127.0.0.1:8000/balanceGeneral",0,null)),$async$rM)
+return A.P(A.aof(A.iI("https://fin-report.azurewebsites.net//balanceGeneral",0,null)),$async$rM)
 case 3:n=b
 m=n.e
 l=A.ni(J.ap(A.nd(m).c.a,"charset"))
@@ -71691,7 +71691,7 @@ this.d=this.rT()},
 rT(){var s=0,r=A.V(t.Ng),q,p,o,n,m
 var $async$rT=A.Q(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:s=3
-return A.P(A.aof(A.iI("http://127.0.0.1:8000/estadoResultados",0,null)),$async$rT)
+return A.P(A.aof(A.iI("https://fin-report.azurewebsites.net//estadoResultados",0,null)),$async$rT)
 case 3:p=b
 o=p.e
 n=A.ni(J.ap(A.nd(o).c.a,"charset"))
@@ -71739,7 +71739,7 @@ return A.arQ(A.a([A.b9(p,r,p),A.hi(A.bu("Estado de resultados",p,p,p,A.cr(p,p,B.
 return new A.zu(p)}},
 $S:461}
 A.pk.prototype={
-ak(){return new A.AU(A.aEN("POST",A.iI("http://127.0.0.1:8000/xlsx",0,null)),null,null,B.k)}}
+ak(){return new A.AU(A.aEN("POST",A.iI("https://fin-report.azurewebsites.net//xlsx",0,null)),null,null,B.k)}}
 A.AU.prototype={
 te(){var s=0,r=A.V(t.N),q,p=this,o,n,m
 var $async$te=A.Q(function(a,b){if(a===1)return A.S(b,r)
